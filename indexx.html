@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TradeConnect India – Smart Import–Export Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <!-- You can swap this text for an <img> with your logo -->
+        <div class="logo-mark">
+          <span class="logo-circle"></span>
+          <span class="logo-ship"></span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">TradeConnect</span>
+          <span class="logo-subtitle">India</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="mainNav">
+        <a href="#solutions">Solutions</a>
+        <a href="#why">Why TradeConnect</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button class="btn btn-nav" onclick="scrollToSection('contact')">Get Started</button>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Smart import–export solutions<br />for growing businesses.</h1>
+          <p>
+            TradeConnect India helps MSMEs connect with verified buyers,
+            trusted suppliers, and global logistics partners—on one
+            transparent digital platform.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="scrollToSection('services')">
+              Explore Services
+            </button>
+            <button class="btn btn-outline" onclick="scrollToSection('why')">
+              Why TradeConnect?
+            </button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Export categories</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label">Verified partners</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Support & tracking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-orbit">
+            <div class="orbit-circle orbit-1"></div>
+            <div class="orbit-circle orbit-2"></div>
+            <div class="orbit-circle orbit-3"></div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <span class="badge badge-green">Live Shipment</span>
+              <span class="hero-card-status">In Transit • SEA</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="route">
+                <span class="route-city">Mumbai, IN</span>
+                <span class="route-arrow">⟶</span>
+                <span class="route-city">Rotterdam, NL</span>
+              </div>
+              <div class="progress-bar">
+                <span class="progress-fill" style="width: 68%;"></span>
+              </div>
+              <div class="hero-metrics">
+                <div>
+                  <span class="metric-label">ETA</span>
+                  <span class="metric-value">6 days</span>
+                </div>
+                <div>
+                  <span class="metric-label">Container</span>
+                  <span class="metric-value">FCL • 40 ft</span>
+                </div>
+                <div>
+                  <span class="metric-label">Status</span>
+                  <span class="metric-value metric-ok">On schedule</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="hero-bg-image"
+            src="https://images.pexels.com/photos/2226458/pexels-photo-2226458.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Container ship at sea"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Cards -->
+    <section class="highlights" id="solutions">
+      <div class="container highlights-grid">
+        <article class="highlight-card">
+          <h3>Trusted Trade Network</h3>
+          <p>
+            Access a curated network of verified exporters, importers, and
+            logistics partners across key trade lanes.
+          </p>
+        </article>
+        <article class="highlight-card">
+          <h3>Smart Finance Tools</h3>
+          <p>
+            Track deals, invoices, and payment status in one place with
+            built-in export finance insights.
+          </p>
+        </article>
+        <article class="highlight-card">
+          <h3>Logistics Made Simple</h3>
+          <p>
+            Compare routes, monitor shipments in real time, and reduce
+            delays with proactive alerts.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Why TradeConnect -->
+    <section class="why" id="why">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why businesses choose TradeConnect India</h2>
+          <p>
+            Built for Indian MSMEs who want global reach without the usual
+            paperwork chaos and uncertainty.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-column">
+            <div class="why-item">
+              <span class="why-icon">🔒</span>
+              <div>
+                <h3>Secure by design</h3>
+                <p>
+                  Encrypted transactions, verified profiles, and clear
+                  documentation to keep every deal safe.
+                </p>
+              </div>
+            </div>
+
+            <div class="why-item">
+              <span class="why-icon">📊</span>
+              <div>
+                <h3>Data-driven insights</h3>
+                <p>
+                  Visual dashboards for route costs, partner performance,
+                  and overall trade profitability.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-column">
+            <div class="why-item">
+              <span class="why-icon">🌏</span>
+              <div>
+                <h3>Global reach, local support</h3>
+                <p>
+                  Target buyers across Europe, MENA, and APAC while getting
+                  full support from our India-based team.
+                </p>
+              </div>
+            </div>
+
+            <div class="why-item">
+              <span class="why-icon">⚙️</span>
+              <div>
+                <h3>End-to-end workflow</h3>
+                <p>
+                  From lead to loading port, manage quotes, contracts, and
+                  shipment tracking on one connected platform.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-aside">
+            <div class="mini-card">
+              <p class="mini-title">Average time saved</p>
+              <p class="mini-value">32%</p>
+              <p class="mini-sub">on documentation & coordination</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-title">On-time shipments</p>
+              <p class="mini-value">89%</p>
+              <p class="mini-sub">with proactive status alerts</p>
+            </div>
+            <p class="aside-note">
+              TradeConnect India is designed to make professional trade
+              tools accessible even to first-time exporters.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Cards like product grid -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured solutions</h2>
+          <p>Everything you need to move goods and money safely across borders.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-tag tag-blue">Onboarding</span>
+            <img
+              src="https://images.pexels.com/photos/4484078/pexels-photo-4484078.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="People working on export documents"
+            />
+            <div class="service-body">
+              <h3>MSME Export Starter</h3>
+              <p>
+                Guided onboarding, HS-code mapping, and basic trade document
+                templates for new exporters.
+              </p>
+              <div class="service-meta">
+                <span class="service-price">From ₹7,500</span>
+                <button class="btn-link" onclick="openModal('MSME Export Starter')">
+                  Request details →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <span class="service-tag tag-green">Network</span>
+            <img
+              src="https://images.pexels.com/photos/4484075/pexels-photo-4484075.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Handshake between business people"
+            />
+            <div class="service-body">
+              <h3>Verified Partner Match</h3>
+              <p>
+                Match with pre-screened buyers, suppliers, and freight
+                forwarders for your sector and target region.
+              </p>
+              <div class="service-meta">
+                <span class="service-price">From ₹12,000</span>
+                <button class="btn-link" onclick="openModal('Verified Partner Match')">
+                  Request details →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <span class="service-tag tag-purple">Finance</span>
+            <img
+              src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Financial analytics dashboard"
+            />
+            <div class="service-body">
+              <h3>Trade Finance Insight</h3>
+              <p>
+                Get payment term suggestions, FX risk pointers, and finance
+                partner options for each shipment.
+              </p>
+              <div class="service-meta">
+                <span class="service-price">From ₹9,900</span>
+                <button class="btn-link" onclick="openModal('Trade Finance Insight')">
+                  Request details →
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout stripe -->
+    <section class="cta-strip">
+      <div class="container cta-strip-inner">
+        <div>
+          <h2>Ready to take your first export step?</h2>
+          <p>
+            Share a few details and we’ll send you a simple trade readiness
+            checklist tailored to your business.
+          </p>
+        </div>
+        <button class="btn btn-primary" onclick="scrollToSection('contact')">
+          Get the checklist
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Let’s map your next trade route.</h2>
+          <p>
+            Tell us about your product, markets, and current challenges. Our team
+            will respond with suggested routes, partners, and next steps.
+          </p>
+
+          <ul class="contact-points">
+            <li>✔ Support for new and experienced exporters</li>
+            <li>✔ Guidance on documents & compliance basics</li>
+            <li>✔ Suggestions for logistics & payment options</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="business">Business type</label>
+            <input
+              id="business"
+              name="business"
+              type="text"
+              placeholder="e.g. Textile manufacturer, Food exporter"
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">What do you want to export or import?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" type="submit">
+            Submit enquiry
+          </button>
+          <p class="form-note">
+            By submitting, you agree to be contacted about TradeConnect India
+            services. Your details are kept confidential.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> TradeConnect India. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#solutions">Solutions</a>
+        <a href="#why">Why Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Simple Modal -->
+  <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" onclick="closeModal(event)">×</button>
+      <h3 id="modalTitle">Service enquiry</h3>
+      <p>
+        Leave your details in the contact form below and mention this service
+        name. Our team will share pricing, timelines, and next steps for your
+        business.
+      </p>
+      <button class="btn btn-outline" onclick="scrollToSection('contact')">
+        Go to contact form
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
